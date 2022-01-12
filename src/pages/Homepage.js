@@ -11,7 +11,7 @@ import Herosection from "../components/sections/Herosection";
 import Pricing from "../components/sections/Pricing";
 import Services from "../components/sections/Services";
 import Testimonials from "../components/sections/Testimonials";
-import Works from "../components/sections/Works";
+// import Works from "../components/sections/Works";
 // import Instagram from "../components/sections/Instagram";
 // import Pdf from "react-to-pdf";
 
@@ -57,12 +57,12 @@ function Homepage() {
         <Element name="section-experiences">
           <Experiences />
         </Element>
-        <Element name="section-works">
+        {/* <Element name="section-works">
           <Works />
-        </Element>
-        {/* <Element name="section-instagram">
-          <Instagram />
         </Element> */}
+        <Element name="section-instagram">
+          <Instagram />
+        </Element>
         <Element name="section-pricing">
           <Pricing />
         </Element>

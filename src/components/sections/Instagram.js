@@ -8,11 +8,11 @@ function Instagram() {
         <Pagetitle title="Producción Audiovisual" />
         <div className="row">
           <div className="col-12">
-            {/* <div data-mc-src="55bebf66-511b-4a6a-ae1a-5384e02b9728#instagram"></div> */}
-            <div
-              class="embedsocial-hashtag"
-              data-ref="eb693bcedb3cb45c39e681689071fb90301ca670"
-            ></div>
+            <script
+              src="https://apps.elfsight.com/p/platform.js"
+              defer
+            ></script>
+            <div class="elfsight-app-436a04bc-8b3b-4839-85f6-1042c8594df8"></div>
           </div>
         </div>
       </div>

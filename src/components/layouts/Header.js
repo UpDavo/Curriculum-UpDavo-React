@@ -85,7 +85,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 <i className="icon-graduation"></i>Experiencia
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 activeClass="active"
                 to="section-works"
@@ -94,6 +94,17 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 duration={500}
               >
                 <i className="icon-layers"></i>Portafolio
+              </Link>
+            </li> */}
+            <li>
+              <Link
+                activeClass="active"
+                to="section-instagram"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="icon-plane"></i>Viajes y Hobbies
               </Link>
             </li>
             <li>
@@ -123,7 +134,8 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
 
         <div className="footer">
           <span className="copyright">
-            &copy; {new Date().getFullYear()} UpDavo - Sitio creado con React & Node
+            &copy; {new Date().getFullYear()} UpDavo - Sitio creado con React &
+            Node
           </span>
         </div>
       </header>

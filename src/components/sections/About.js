@@ -7,12 +7,13 @@ import Skill from "../elements/Skill";
 //Constante para la informacción inicial
 const aboutContent = {
   name: "Anthony Villegas",
-  avatarImage: "/profile.png",
+  avatarImage: "/profile.jpg",
   content: `Soy un Profesional en Ingeniería en Software, con amplias habilidades matemáticas, diseño de interfases basadas en la experiencia del usuario, 
   redes y conocimientos en el área de programación web como: Entorno Javascript (JQuery, Frameworks como Next.JS basado en React, Node.js, Firebase, Apis), 
-  CSS (Bootstrap), Java, PHP (Laravel Básico) y Python; Además de tener un conocimiento adicional 
-  que complementa la gestión de cargos específicos (CRM, Facebook Ads Manager y su api para el control de leads, Email marketing HTML & Pixeles, flujo de ventas, análisis de datos, 
-    control de equipos de trabajo y tareas predefinidas para el equipo comerial).`,
+  CSS (Bootstrap), Java, PHP, flutter y Python (Incluyendo inteligencia artificial); Además de tener un conocimiento adicional que complementa la gestión de 
+  cargos específicos (CRM, Facebook Ads Manager y su api para el control de leads, 
+    Email marketing HTML & Pixeles, flujo de ventas, análisis de datos, control de equipos 
+    de trabajo y tareas predefinidas para el equipo comerial).`,
 };
 
 //Constante para las barras de progreso
@@ -66,7 +67,7 @@ const counterData = [
   {
     id: 1,
     title: "Proyectos Completados",
-    count: 25,
+    count: 30,
     icon: "icon-fire",
   },
   {
@@ -78,13 +79,13 @@ const counterData = [
   {
     id: 3,
     title: "Clientes Satisfechos",
-    count: 170,
+    count: 200,
     icon: "icon-people",
   },
   {
     id: 4,
     title: "Participación en Hackatones",
-    count: 3,
+    count: 4,
     icon: "icon-badge",
   },
 ];
