@@ -1,18 +1,15 @@
 import React from "react";
 import Pagetitle from "../elements/Pagetitle";
+import { ElfsightWidget } from "react-elfsight-widget";
 
 function Instagram() {
   return (
     <section id="instagram">
       <div className="container">
-        <Pagetitle title="Producción Audiovisual" />
+        <Pagetitle title="Viajes y Hobbies" />
         <div className="row">
           <div className="col-12">
-            <script
-              src="https://apps.elfsight.com/p/platform.js"
-              defer
-            ></script>
-            <div class="elfsight-app-436a04bc-8b3b-4839-85f6-1042c8594df8"></div>
+            <ElfsightWidget widgetID="436a04bc-8b3b-4839-85f6-1042c8594df8" />;
           </div>
         </div>
       </div>

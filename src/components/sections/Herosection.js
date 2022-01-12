@@ -29,6 +29,7 @@ function Herosection(props) {
             alt="Imagen de perfil"
             className="mb-4"
             width="200"
+            style={{ borderRadius: "27px", width: "324px" }}
           />
 
           <h1 className="mb-2 mt-0">Anthony Daniel Villegas</h1>

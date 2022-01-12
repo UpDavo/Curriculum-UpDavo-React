@@ -98,7 +98,11 @@ function About() {
         <div className="row">
           <div className="col-md-3">
             <div className="text-center text-md-left">
-              <img src={aboutContent.avatarImage} alt={aboutContent.name} />
+              <img
+                src={aboutContent.avatarImage}
+                alt={aboutContent.name}
+                style={{ borderRadius: "30px" }}
+              />
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
           </div>
