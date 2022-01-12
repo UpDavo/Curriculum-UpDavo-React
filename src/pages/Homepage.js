@@ -12,7 +12,7 @@ import Pricing from "../components/sections/Pricing";
 import Services from "../components/sections/Services";
 import Testimonials from "../components/sections/Testimonials";
 // import Works from "../components/sections/Works";
-// import Instagram from "../components/sections/Instagram";
+import Instagram from "../components/sections/Instagram";
 // import Pdf from "react-to-pdf";
 
 // const ref = React.createRef();
